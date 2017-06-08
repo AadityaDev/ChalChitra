@@ -94,7 +94,7 @@
         app:cardCornerRadius="@dimen/dimen_8dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dimen_32dp"
-        android:layout_marginBottom="@dimen/dimen_32dp"
+        android:layout_marginBottom="@dimen/dimen_80dp"
         >
 
         <RelativeLayout
@@ -122,6 +122,33 @@
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/colorPrimary"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:text="Comment"
+                android:textSize="@dimen/text_22sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
 
 </RelativeLayout>
 </ScrollView>

@@ -67,6 +67,7 @@ public class MovieActivity extends BaseAppCompat {
     private TextView overview;
     private TextView languages;
     private CardView seeVideo;
+    private CardView comment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +86,14 @@ public class MovieActivity extends BaseAppCompat {
             @Override
             public void onClick(View v) {
                 getURL();
+            }
+        });
+        comment=(CardView)findViewById(R.id.comment);
+        comment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent openComment=new Intent(getApplicationContext(),CommentActivity.class);
+                startActivity(openComment);
             }
         });
 
