@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "562076047958",
+    "firebase_url": "https://chalchitra-db89a.firebaseio.com",
+    "project_id": "chalchitra-db89a",
+    "storage_bucket": "chalchitra-db89a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562076047958:android:7f41cbc811da75f4",
+        "android_client_info": {
+          "package_name": "com.aditya.chalchitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562076047958-0cgkuff8m871444rs903hc6jf7qq68r2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aditya.chalchitra",
+            "certificate_hash": "663713ea816f858b3590fc07421b14d41b33ab01"
+          }
+        },
+        {
+          "client_id": "562076047958-425n1u63tv58411h1b41ndcp31gpgtbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALRnln-PYpWYv9_HRu36DuC6YZ5RLYAY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562076047958-425n1u63tv58411h1b41ndcp31gpgtbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
